@@ -8,10 +8,8 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "app",
-	Short: "Pomodoro CLI for time management",
-	Long: `A Simple and Effective CLI Tool for managing your tasks
-using the Pomodoro technique.`,
+	Use:   "App",
+	Short: "https://github.com/sepehr-safaeian/",
 }
 
 // Execute is the entry point for the CLI application
