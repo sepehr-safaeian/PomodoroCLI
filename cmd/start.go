@@ -1,13 +1,13 @@
 package cmd
 
 import (
-	"fmt"
+	"PomodoroCLI/internal"
 
 	"github.com/spf13/cobra"
 )
 
 func startPomodoro(cmd *cobra.Command, args []string) {
-	fmt.Println("Pomodoro started! Work for 25 minutes.")
+	internal.StartTimer()
 }
 
 func init() {
