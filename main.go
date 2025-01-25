@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "PomodoroCLI/cmd"
 
+func main() {
+	cmd.Execute()
 }
